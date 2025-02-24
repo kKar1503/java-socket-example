@@ -1,4 +1,4 @@
-## Basic Implementation of Java Sockets with Threads
+# Basic Implementation of Java Sockets with Threads
 
 This is a slightly more complex implementation of Java Sockets. It is a simple client-server
 application that sends a Card objet from the client to the server and the server responds with
