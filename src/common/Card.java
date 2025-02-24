@@ -2,7 +2,8 @@ package common;
 
 import java.io.Serializable;
 
-public class Card implements Serializable {
+public class Card implements Serializable /* implements Serializable to make the object sendable
+    across the network */ {
     private final int number;
     private final Color color;
 
