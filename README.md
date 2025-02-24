@@ -68,3 +68,15 @@ The folder structure is as follows:
     └── server
         └── Server.java          # Server implementation
 ```
+
+## What's Next?
+
+This current implementation does not allow you to be able to receive multiple connections from the client.
+The server currently just shuts down the moment the connection is being handled. How can we:
+
+1. Keep the server alive, and wait for the next connection to come in?
+2. Without needing to wait for the current connection to close, accepts the next connection?
+
+In order to do that, you will have to add on additional implementations to handle these. You can consider trying
+it out first before looking at the recommended approach
+in [the other branch](https://github.com/kKar1503/java-socket-example/tree/threaded-connection).
